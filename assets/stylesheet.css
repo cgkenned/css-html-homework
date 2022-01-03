@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo {
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    padding: 25px 10px;
+}
+
+#logo a:hover {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.leftNav {
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.leftNav li {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.rightNav {
+    float: right;
+    padding-right: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: crimson;
+}
+
+#searchBar {
+    display: flex;
+}
+
+#searchIcon {
+    height: 20px;
+    background-color: red;
+}
+
+button {
+    background-color: red;
+    height: 35px;
+    border-style: hidden;
+}
+
+button:hover {
+    border-style: outset;
+}
+
+#cartIcon {
+    height: 20px;
+    background-color: black;
+    color: white;
+}
+
+.openMicNight {
+    background-color: darkred;
+    color: white;
+    margin: 20px 300px 20px 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#secondary-h1 {
+    text-align: center;
+    font-family: 'Rock 3D', cursive;
+}
